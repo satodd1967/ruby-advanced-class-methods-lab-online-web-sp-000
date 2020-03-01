@@ -53,6 +53,8 @@ end
     song.name = filename.split(" - ")[1].split(".")[0]
     song
   end
+  
+  
 
 #binding.pry
 end
