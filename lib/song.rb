@@ -51,7 +51,6 @@ end
     song = self.new
     song.artist_name = filename.split(" - ")[0]
     song.name = filename.split(" - ")[1].split(".")[0]
-    song
   end
 
 binding.pry
