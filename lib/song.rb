@@ -63,7 +63,7 @@ end
   
   def self.destroy_all
     @@all.clear
-  endd
+  end
 
 #binding.pry
 end
