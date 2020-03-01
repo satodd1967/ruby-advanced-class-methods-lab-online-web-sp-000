@@ -60,6 +60,9 @@ end
     song.name = filename.split(" - ")[1].split(".")[0]
     @@all << song
   end
+  
+  def self.destroy_all
+    @@all
 
 #binding.pry
 end
