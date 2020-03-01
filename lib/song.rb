@@ -54,7 +54,12 @@ end
     song
   end
   
-  
+  def self.create_from_filename(filename)
+    song = self.new
+    song.artist_name = filename.split(" - ")[0]
+    song.name = filename.split(" - ")[1].split(".")[0]
+    @@all << song
+  end
 
 #binding.pry
 end
