@@ -46,6 +46,8 @@ end
   def self.alphabetical
     @@all.sort_by {|songs| songs.name}
   end
+  
+  
 
 #binding.pry
 end
